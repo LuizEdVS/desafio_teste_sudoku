@@ -1,0 +1,14 @@
+{
+  "name": "desafio-teste-sudoku-binario",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sudoku binário 6 por 6 com regras, solucionador e testes automatizados em JavaScript.",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "test:coverage": "node --test --experimental-test-coverage",
+    "demo": "node exemplo.js"
+  }
+}
